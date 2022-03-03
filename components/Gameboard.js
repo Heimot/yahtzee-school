@@ -77,7 +77,7 @@ export default function Gameboard() {
     }
 
     const selectNumbers = (i) => {
-
+        reset();
         if (nbrOfThrowsLeft === 0) {
             if (!counts[i].used) {
                 let sum = 0;
